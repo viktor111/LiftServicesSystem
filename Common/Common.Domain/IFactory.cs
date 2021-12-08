@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Common.Domain
 {
-    public interface IFactory
+    public interface IFactory<out TEntity>
+        where TEntity : IAggregateRoot
     {
+        TEntity Build();
     }
 }
