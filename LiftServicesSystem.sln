@@ -9,55 +9,60 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{A494
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{3A812B96-97FD-43FA-AC80-05159601365D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Startup", "Orders\Orders.Startup\Orders.Startup.csproj", "{B4F233B0-D0CC-49F3-895F-43390C94A450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders.Startup", "Orders\Orders.Startup\Orders.Startup.csproj", "{B4F233B0-D0CC-49F3-895F-43390C94A450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Startup", "Catalog\Catalog.Startup\Catalog.Startup.csproj", "{5A73FB2C-5B7F-4E4B-A8E4-B6CDC8D61023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Startup", "Catalog\Catalog.Startup\Catalog.Startup.csproj", "{5A73FB2C-5B7F-4E4B-A8E4-B6CDC8D61023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Support.Startup", "Support\Support.Startup\Support.Startup.csproj", "{40ECC4AF-70D7-413D-9441-D3A46DFA7578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Support.Startup", "Support\Support.Startup\Support.Startup.csproj", "{40ECC4AF-70D7-413D-9441-D3A46DFA7578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Support.Domain", "Support\Support.Domain\Support.Domain.csproj", "{9F562BC2-A58F-4848-9CCA-A59D7745A0B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Support.Domain", "Support\Support.Domain\Support.Domain.csproj", "{9F562BC2-A58F-4848-9CCA-A59D7745A0B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Support.Application", "Support\Support.Application\Support.Application.csproj", "{FDD88953-227D-4B58-AD52-5E31DEB5A182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Support.Application", "Support\Support.Application\Support.Application.csproj", "{FDD88953-227D-4B58-AD52-5E31DEB5A182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Support.Web", "Support\Support.Web\Support.Web.csproj", "{BC8258F4-4ED1-4810-9CAD-BAF3D251BA5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Support.Web", "Support\Support.Web\Support.Web.csproj", "{BC8258F4-4ED1-4810-9CAD-BAF3D251BA5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Support.Infrastructure", "Support\Support.Infrastructure\Support.Infrastructure.csproj", "{FA7B3DED-5D12-45BF-8DF2-18386C75065B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Support.Infrastructure", "Support\Support.Infrastructure\Support.Infrastructure.csproj", "{FA7B3DED-5D12-45BF-8DF2-18386C75065B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Infrastructure", "Orders\Orders.Infrastructure\Orders.Infrastructure.csproj", "{49D2BEF6-B09D-4A94-98B6-08EC9DB77329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders.Infrastructure", "Orders\Orders.Infrastructure\Orders.Infrastructure.csproj", "{49D2BEF6-B09D-4A94-98B6-08EC9DB77329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Web", "Orders\Orders.Web\Orders.Web.csproj", "{DB7EADCA-E2AE-498D-A810-0F0DB8AFB5AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders.Web", "Orders\Orders.Web\Orders.Web.csproj", "{DB7EADCA-E2AE-498D-A810-0F0DB8AFB5AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Domain", "Orders\Orders.Domain\Orders.Domain.csproj", "{4F82FDAE-157F-4E26-8345-9E78400B9E18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders.Domain", "Orders\Orders.Domain\Orders.Domain.csproj", "{4F82FDAE-157F-4E26-8345-9E78400B9E18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Domain", "Catalog\Catalog.Domain\Catalog.Domain.csproj", "{CF5292B8-222F-4202-9296-6248F91D5233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Domain", "Catalog\Catalog.Domain\Catalog.Domain.csproj", "{CF5292B8-222F-4202-9296-6248F91D5233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Application", "Orders\Orders.Application\Orders.Application.csproj", "{E3DE8AF3-1AB9-452D-9ADD-3EEDEF0BFE34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders.Application", "Orders\Orders.Application\Orders.Application.csproj", "{E3DE8AF3-1AB9-452D-9ADD-3EEDEF0BFE34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Application", "Catalog\Catalog.Application\Catalog.Application.csproj", "{D03D9C77-8518-47C1-8F2E-D6317F94740A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Application", "Catalog\Catalog.Application\Catalog.Application.csproj", "{D03D9C77-8518-47C1-8F2E-D6317F94740A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Web", "Catalog\Catalog.Web\Catalog.Web.csproj", "{6AE48DEC-5125-4B97-B629-7F37029B156D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Web", "Catalog\Catalog.Web\Catalog.Web.csproj", "{6AE48DEC-5125-4B97-B629-7F37029B156D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Infrastructure", "Catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{FEE6D154-FD5E-4DCF-939E-AC7B1ABF5F45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Infrastructure", "Catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{FEE6D154-FD5E-4DCF-939E-AC7B1ABF5F45}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8EB05CEB-119C-4C36-8EBE-40F21DBF24A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Domain", "Common\Common.Domain\Common.Domain.csproj", "{DEE4756F-CD3C-4E6A-BFB6-730B214D531E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Domain", "Common\Common.Domain\Common.Domain.csproj", "{DEE4756F-CD3C-4E6A-BFB6-730B214D531E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Infrastructure", "Common\Common.Infrastructure\Common.Infrastructure.csproj", "{D1257355-0076-4322-9DE9-9E3BFC0E1AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Infrastructure", "Common\Common.Infrastructure\Common.Infrastructure.csproj", "{D1257355-0076-4322-9DE9-9E3BFC0E1AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Application", "Common\Common.Application\Common.Application.csproj", "{CD4723F4-D03A-4424-8E4F-EE82B862055E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Application", "Common\Common.Application\Common.Application.csproj", "{CD4723F4-D03A-4424-8E4F-EE82B862055E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Web", "Common\Common.Web\Common.Web.csproj", "{946AABC9-6BAE-4BC4-A377-8E59670072C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Web", "Common\Common.Web\Common.Web.csproj", "{946AABC9-6BAE-4BC4-A377-8E59670072C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{C54C1C35-9C67-4194-8829-FD042CD29FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Startup", "Identity\Identity.Startup\Identity.Startup.csproj", "{699FFEA1-F0A3-467D-AE3A-C2CAFCAB3B39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Startup", "Identity\Identity.Startup\Identity.Startup.csproj", "{699FFEA1-F0A3-467D-AE3A-C2CAFCAB3B39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Application", "Identity\Identity.Application\Identity.Application.csproj", "{36422E36-AA8E-4F82-AD47-A9F539E7E777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Application", "Identity\Identity.Application\Identity.Application.csproj", "{36422E36-AA8E-4F82-AD47-A9F539E7E777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Web", "Identity\Identity.Web\Identity.Web.csproj", "{C6EDD167-BCB5-4A09-A682-62EBD2678E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Web", "Identity\Identity.Web\Identity.Web.csproj", "{C6EDD167-BCB5-4A09-A682-62EBD2678E61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Infrastructure", "Identity\Identity.Infrastructure\Identity.Infrastructure.csproj", "{C9511937-DAC7-4ACB-9AB4-D7605B61B2F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Infrastructure", "Identity\Identity.Infrastructure\Identity.Infrastructure.csproj", "{C9511937-DAC7-4ACB-9AB4-D7605B61B2F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A457C0CD-6769-4917-94D0-860B5960CEF7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,9 +1,10 @@
 ﻿namespace Common.Infrastructure.Repositories
 {
+    using Application.Contracts;
     using Domain;
     using Microsoft.EntityFrameworkCore;
 
-    internal abstract class DataRepository<TDbContext, TEntity> : IDomainRepository<TEntity>
+    internal abstract class DataRepository<TDbContext, TEntity> : IRepository<TEntity>
         where TDbContext : DbContext
         where TEntity : class, IAggregateRoot
     {
